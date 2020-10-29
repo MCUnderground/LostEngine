@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Box2DX.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,5 +16,7 @@ namespace LostEngine.Engine
         public Vector2() { X = Zero().X; Y = Zero().Y; }
         public Vector2(float X, float Y) { this.X = X; this.Y = Y; }
         public static Vector2 Zero() { return new Vector2(0, 0);  }
+
+        
     }
 }
