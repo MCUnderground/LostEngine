@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LostEngine.Demo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace LostEngine
     {
         static void Main(string[] args)
         {
+            DemoGame game = new DemoGame();
         }
     }
 }
